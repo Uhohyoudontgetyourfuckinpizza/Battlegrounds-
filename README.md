@@ -236,6 +236,21 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrain-Roblox/main/ma
   	end    
 })
 
+Tab:AddButton({
+Name = "Zenon Gojo moveset (key is Zenon12345
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Gojo-Moveset-Script-FIX-16704"))()
+
+Tab:AddButton({
+	Name = "AlperPro Script (BEST KJ SCRIPT)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlperPro/shhh/main/KJ%20Script.lua"))() 
+
+
+Tab:AddButton({
+	Name = "Betless hub",
+	Callback = function()
+loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
 --[[
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
@@ -245,6 +260,7 @@ Callback = <function> - The function of the button.
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
 local Tab = Window:MakeTab({
 	Name = "jujutsu shenanigans",
 	Icon = "rbxassetid://4483345998",
