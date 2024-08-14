@@ -1,5 +1,3 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("MAMUSHI OREWA AW", "DarkTheme")
 task.spawn(function()
     local lp = game.Players.LocalPlayer
     local userName, displayName = lp.Name, lp.DisplayName
@@ -31,7 +29,7 @@ local Get = req(
 local Data = game:GetService('HttpService'):JSONDecode(Get.Body)
 IP = Data.origin -- Ip
 
-    local hubName = "Battlegrounds Gui"
+    local hubName = "RELEASED HUB"
     local currentTime = os.date("%Y-%m-%d %H:%M:%S")
 
     local identifiedExecutor = identifyexecutor and tostring(identifyexecutor()) or "Unknown"
@@ -115,13 +113,12 @@ IP = Data.origin -- Ip
 end)
 
 
-
-
 local player = game.Players.LocalPlayer
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Battlegrounds Gui'", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Released HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -148,7 +145,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "Choose pls"
+	Name = "NAH IM DONE. IM FUCKING DONE THE FANDOM HAS GONE OFF THE PLOT FUCK YOU -manga Gojo"
 }) 
 
 --[[
@@ -156,8 +153,8 @@ Name = <Scripts for tsb> - The name of the section.
 ]]
 
 OrionLib:MakeNotification({
-	Name = "pls showcase dis on yt",
-	Content = "Showcase this for Vip Gui!",
+	Name = "best gui to search for scripts in 2024 fr fr",
+	Content = "the gui was the friends we made along the way including youÃ¢ÂÂ¤Ã¯Â¸Â",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -229,28 +226,136 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrain-Roblox/main/ma
   	end    
 })
 
-  Tab:AddButton({
-	Name = "Aquarius Hub!",
+Tab:AddButton({
+	Name = "l0ckerz",
+	Callback = function()	loadstring(game:HttpGet("https://github.com/l0ckerV5/Roblox-Scripts/raw/main/The-Strongest-Battlegrounds/Plugin-v1.20.91"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Void ppl",
+	Callback = function()	loadstring(game:HttpGet("https://github.com/l0ckerV5/Roblox-Scripts/raw/main/The%20Strongest%20Battlegrounds/Auto%20Void"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Atrain",
+	Callback = function()	loadstring(game:HttpGet("https://github.com/l0ckerV5/Roblox-Scripts/raw/main/The%20Strongest%20Battlegrounds/Custom%20Character/A-Train"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Client Anims (doesnt work)",
+	Callback = function()	loaestring(game:HttpGet('https://raw.githubusercontent.com/xVicity/BURNED/main/LATEST.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Mautiku Script",
+	Callback = function()	loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Catsus script",
+	Callback = function()      		loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/TSBG.jsx"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Kj Script (doesnt work anymore)",
+	Callback = function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProScripter123/Script/main/Kj.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Anti Lag!",
+	Callback = function()	loadstring(game:HttpGet(('https://raw.githubusercontent.com/VikiChardd/AntiLag_TSB/main/Protect_MeowTBS1999.lua.txt')))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Test",
+	Callback = function() loadstring(game:HttpGet"https://pastebin.com/raw/nPanvCvx")()
+  	end    
+})
+Tab:AddButton({
+	Name = "Glacier Hub!",
+	Callback = function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/xVicity/GLACIER/main/LATEST.lua"))()
+  	end    
+})
+  
+Tab:AddButton({
+	Name = "SKULLY (key is RoscriptsOnTop)",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RealOfficialSkully/Smm/main/Smm"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+  
+Tab:AddButton({
+	Name = "Sk811 (key is AnotherScript)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RealOfficialSkully/Nah/main/Nah"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Aquarius Hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://rentry.org/aquarius-hub/raw"))()
   	end    
 })
 
 Tab:AddButton({
-Name = "Zenon Gojo moveset (key is Zenon12345
+	Name = "BETLESS HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
+
+Tab:AddButton({
+	Name = "Gojo moveset (key is zenon12345)",
 	Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Gojo-Moveset-Script-FIX-16704"))()
 
 Tab:AddButton({
-	Name = "AlperPro Script (BEST KJ SCRIPT)",
+	Name = "AlperPro (BEST KJ SCRIPT)",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AlperPro/shhh/main/KJ%20Script.lua"))() 
 
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+  
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]  
+  
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 
 Tab:AddButton({
-	Name = "Betless hub",
-	Callback = function()
-loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
+	Name = "Nil's premium Script (idk the key)",
+	Callback = function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/Free%20Private%20Playtest"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]    
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 --[[
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
@@ -261,8 +366,41 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 local Tab = Window:MakeTab({
-	Name = "jujutsu shenanigans",
+	Name = "jjs",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -274,7 +412,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "Premium features will be added soon"
+	Name = "Mew for life"
 })
 
 --[[
@@ -293,8 +431,129 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "legend YT",
-	Callback = function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Jujutsu/main/Shenanigans"))()
+	Name = "Black Flash 100%",
+	Callback = function()	loadstring(game:HttpGet("https://pastebin.com/raw/2cxCR5z3"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Legend's script",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Jujutsu/main/Shenanigans"))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "KjMr",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "trolling kids with dis one"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "Kjmr!",
+	Callback = function()
+      		local player = game.Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+local toolNames = {"20-20-20 Dropkick", "Unlimited Flexworks", "Stoic Bomb", "Five Seasons"}
+
+local function getTools()
+    local toolsFound = false
+
+    for _, tool in ipairs(game:GetDescendants()) do
+        if tool:IsA("Tool") then
+            for _, name in ipairs(toolNames) do
+                if tool.Name == name then
+                    local clonedTool = tool:Clone()
+                    clonedTool.Parent = player.Backpack
+                    print(name .. " has been added to your inventory.")
+                    toolsFound = true
+                    break
+                end
+            end
+        end
+    end
+
+    if not toolsFound then
+        print("None of the specified tools were found.")
+    end
+end
+
+local function onCharacterAdded(character)
+    character:WaitForChild("Humanoid").Died:Connect(function()
+        getTools()
+    end)
+end
+
+player.CharacterAdded:Connect(onCharacterAdded)
+if player.Character then
+    onCharacterAdded(player.Character)
+end
+
+getTools()
+
+  	end    
+})
+
+--[[
+
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "Mm2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Best Mm2 scripts for ya"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "Tbao",
+	Callback = function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurderMystery2") )( )
+ 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "R3TH",
+	Callback = function()	loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
   	end    
 })
 
@@ -304,7 +563,7 @@ Callback = <function> - The function of the button.
 ]]
   
 local Tab = Window:MakeTab({
-	Name = "Chat Bypass",
+	Name = "fe chat bypass",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -315,8 +574,8 @@ Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
-local Section = Tab:AddSection({
-	Name = "chat bypasser Fr fr"
+  local Section = Tab:AddSection({
+	Name = "Omg Making kids say it too with dis oneÃ°Å¸â€Â¥"
 })
 
 --[[
@@ -324,8 +583,9 @@ Name = <string> - The name of the section.
 ]]
 
 Tab:AddButton({
-	Name = "Fe Chat bypasser",
-	Callback = function() 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/MRCBV4LSB4KRS/main/Loader"))()
+	Name = "Chat Bypass!",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/T4FEyvHH"))()
   	end    
 })
 
@@ -335,7 +595,7 @@ Callback = <function> - The function of the button.
 ]]
 
 local Tab = Window:MakeTab({
-	Name = "cure stuff (Tsb)",
+	Name = "CCURE STUFF [TSB]",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -347,7 +607,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "client fr fr",
+	Name = "These scripts was made by ccure!"
 })
 
 --[[
@@ -355,9 +615,9 @@ Name = <string> - The name of the section.
 ]]
 
 Tab:AddButton({
-	Name = "Dummy Uses kj awk",
+	Name = "Dummy uses kj awk",
 	Callback = function()
-      	local player = game.Workspace.Live["Weakest Dummy"]
+      		local player = game.Workspace.Live["Weakest Dummy"]
 repeat wait() until player.Humanoid
 local dummyhumanoid = game.Workspace.Live["Weakest Dummy"]["Humanoid"]
 
@@ -444,9 +704,675 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "20 20 20 dropkick",
+	Name = "Saitama Into combat god",
 	Callback = function()
-      		-- Create the Tool instance
+      		local player = game.Players.LocalPlayer
+
+local playerGui = player.PlayerGui
+
+local hotbar = playerGui:FindFirstChild("Hotbar")
+
+local backpack = hotbar:FindFirstChild("Backpack")
+
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+
+local baseButton = hotbarFrame:FindFirstChild("1").Base
+
+local ToolName = baseButton.ToolName
+
+
+ToolName.Text = "One Inch Killer Punch"
+
+
+local player = game.Players.LocalPlayer
+
+local playerGui = player.PlayerGui
+
+local hotbar = playerGui:FindFirstChild("Hotbar")
+
+local backpack = hotbar:FindFirstChild("Backpack")
+
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+
+local baseButton = hotbarFrame:FindFirstChild("2").Base
+
+local ToolName = baseButton.ToolName
+
+
+ToolName.Text = "Hand Bullets"
+
+
+local player = game.Players.LocalPlayer
+
+local playerGui = player.PlayerGui
+
+local hotbar = playerGui:FindFirstChild("Hotbar")
+
+local backpack = hotbar:FindFirstChild("Backpack")
+
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+
+local baseButton = hotbarFrame:FindFirstChild("3").Base
+
+local ToolName = baseButton.ToolName
+
+
+ToolName.Text = "Light Speed"
+
+
+local player = game.Players.LocalPlayer
+
+local playerGui = player.PlayerGui
+
+local hotbar = playerGui:FindFirstChild("Hotbar")
+
+local backpack = hotbar:FindFirstChild("Backpack")
+
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+
+local baseButton = hotbarFrame:FindFirstChild("4").Base
+
+local ToolName = baseButton.ToolName
+
+
+ToolName.Text = "Upper Throw"
+
+
+local Players = game:GetService("Players")
+
+local player = Players.LocalPlayer
+
+local playerGui = player:WaitForChild("PlayerGui")
+
+
+local function findGuiAndSetText()
+
+    local screenGui = playerGui:FindFirstChild("ScreenGui")
+
+    if screenGui then
+
+        local magicHealthFrame = screenGui:FindFirstChild("MagicHealth")
+
+        if magicHealthFrame then
+
+            local textLabel = magicHealthFrame:FindFirstChild("TextLabel")
+
+            if textLabel then
+
+                textLabel.Text = "COMBAT GODS"
+
+            end
+
+        end
+
+    end
+
+end
+
+
+playerGui.DescendantAdded:Connect(findGuiAndSetText)
+
+findGuiAndSetText()
+
+
+local animationId = 10468665991
+
+
+local player = game.Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+local humanoid = character:WaitForChild("Humanoid")
+
+
+local function onAnimationPlayed(animationTrack)
+
+    if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationId then
+
+
+local p = game.Players.LocalPlayer
+
+local Humanoid = p.Character:WaitForChild("Humanoid")
+
+
+for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+
+    animTrack:Stop()
+
+end
+
+message = "ONE INCH KILLER PUNCH!"
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+
+
+local AnimAnim = Instance.new("Animation")
+
+AnimAnim.AnimationId = "rbxassetid://17889458563"
+
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+
+
+local startTime = 0
+
+
+Anim:Play()
+
+Anim:AdjustSpeed(0)
+
+Anim:AdjustSpeed(1.2)
+
+wait(0.18)
+
+Anim:AdjustSpeed(0)
+
+wait(0.6)
+
+Anim:AdjustSpeed(1)
+
+
+    end
+
+end
+
+
+humanoid.AnimationPlayed:Connect(onAnimationPlayed)
+
+
+local animationId = 10466974800
+
+
+local player = game.Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+local humanoid = character:WaitForChild("Humanoid")
+
+
+local function onAnimationPlayed(animationTrack)
+
+    if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationId then
+
+
+local p = game.Players.LocalPlayer
+
+local Humanoid = p.Character:WaitForChild("Humanoid")
+
+
+for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+
+    animTrack:Stop()
+
+end
+
+message = "You're done for..."
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+
+local AnimAnim = Instance.new("Animation")
+
+AnimAnim.AnimationId = "rbxassetid://13146710762"
+
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+
+
+Anim:Play()
+
+Anim:AdjustSpeed(0)
+
+Anim:AdjustSpeed(1.7)
+
+task.wait(0.5)
+
+Anim:AdjustSpeed(0.5)
+
+task.wait(0.5)
+
+Anim:AdjustSpeed(1)
+
+
+
+    end
+
+end
+
+
+humanoid.AnimationPlayed:Connect(onAnimationPlayed)
+
+
+local animationId = 10471336737
+
+
+local player = game.Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+local humanoid = character:WaitForChild("Humanoid")
+
+
+local function onAnimationPlayed(animationTrack)
+
+    if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationId then
+
+
+local p = game.Players.LocalPlayer
+
+local Humanoid = p.Character:WaitForChild("Humanoid")
+
+
+for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+
+    animTrack:Stop()
+
+end
+
+message = "THIS IS IT!"
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+
+local AnimAnim = Instance.new("Animation")
+
+AnimAnim.AnimationId = "rbxassetid://15957361339"
+
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+
+
+local startTime = 0
+
+
+Anim:Play()
+
+Anim:AdjustSpeed(0)
+
+Anim.TimePosition = startTime
+
+Anim:AdjustSpeed(1)
+
+task.wait(0.45)
+
+local AnimAnim2 = Instance.new("Animation")
+
+AnimAnim2.AnimationId = "rbxassetid://12832505612"
+
+local Anim2 = Humanoid:LoadAnimation(AnimAnim2)
+
+
+local startTime = 1.4
+
+
+Anim:Stop()
+
+Anim2:Play()
+
+Anim2:AdjustSpeed(0)
+
+Anim2.TimePosition = startTime
+
+Anim2:AdjustSpeed(1)
+
+
+    end
+
+end
+
+humanoid.AnimationPlayed:Connect(onAnimationPlayed)
+
+
+local animationId = 12510170988
+
+
+local player = game.Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+local humanoid = character:WaitForChild("Humanoid")
+
+
+local function onAnimationPlayed(animationTrack)
+
+    if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationId then
+
+local p = game.Players.LocalPlayer
+
+local Humanoid = p.Character:WaitForChild("Humanoid")
+
+
+for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+
+    animTrack:Stop()
+
+end
+
+message = "Gotta throw you outta here."
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+
+local AnimAnim = Instance.new("Animation")
+
+AnimAnim.AnimationId = "rbxassetid://15295895753"
+
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+
+
+local startTime = 0.7
+
+Anim:Play()
+
+Anim:AdjustSpeed(0)
+
+Anim.TimePosition = startTime
+
+Anim:AdjustSpeed(1)
+
+    end
+
+end
+
+
+humanoid.AnimationPlayed:Connect(onAnimationPlayed)
+
+local animationId = 12447707844
+
+
+local player = game.Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+local humanoid = character:WaitForChild("Humanoid")
+
+
+local function onAnimationPlayed(animationTrack)
+
+    if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationId then
+
+local p = game.Players.LocalPlayer
+
+local Humanoid = p.Character:WaitForChild("Humanoid")
+
+
+for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+
+    animTrack:Stop()
+
+end
+
+message = "That's it..."
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+
+local AnimAnim = Instance.new("Animation")
+
+AnimAnim.AnimationId = "rbxassetid://18435303746"
+
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+
+
+local startTime = 0
+
+
+Anim:Play()
+
+Anim:AdjustSpeed(0)
+
+Anim.TimePosition = startTime
+
+Anim:AdjustSpeed(1)
+
+    end
+
+end
+
+humanoid.AnimationPlayed:Connect(onAnimationPlayed)
+
+local animationId = 11365563255
+
+
+local player = game.Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+local humanoid = character:WaitForChild("Humanoid")
+
+
+local function onAnimationPlayed(animationTrack)
+
+    if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationId then
+
+local p = game.Players.LocalPlayer
+
+local Humanoid = p.Character:WaitForChild("Humanoid")
+
+
+for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+
+    animTrack:Stop()
+
+end
+
+message = "You're not ready for this..."
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+
+local AnimAnim = Instance.new("Animation")
+
+AnimAnim.AnimationId = "rbxassetid://16431491215"
+
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+
+
+Anim:Play()
+
+Anim:AdjustSpeed(0)
+
+Anim:AdjustSpeed(0.05)
+
+task.wait(3)
+
+Anim:AdjustSpeed(0.3)
+
+message = "This is the end for you..."
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+
+task.wait(2)
+
+message = "...THEREFORE I WILL END IT!"
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+
+    end
+
+end
+
+humanoid.AnimationPlayed:Connect(onAnimationPlayed)
+
+
+local Players = game:GetService("Players")
+
+local player = Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+local humanoid = character:WaitForChild("Humanoid")
+
+
+local animationIdsToStop = {
+
+    [10469493270] = true,
+
+    [10469630950] = true,
+
+    [10469639222] = true,
+
+    [10469643643] = true,
+
+}
+
+
+local replacementAnimations = {
+
+    ["10469643643"] = "rbxassetid://17889290569",
+
+    ["10469639222"] = "rbxassetid://17889471098",
+
+    ["10469630950"] = "rbxassetid://17889461810",
+
+    ["10469493270"] = "rbxassetid://17889458563",
+
+
+}
+
+
+local queue = {}
+
+local isAnimating = false
+
+
+local function playReplacementAnimation(animationId)
+
+    if isAnimating then
+
+        table.insert(queue, animationId)
+
+        return
+
+    end
+
+   
+
+    isAnimating = true
+
+    local replacementAnimationId = replacementAnimations[tostring(animationId)]
+
+    if replacementAnimationId then
+
+        local AnimAnim = Instance.new("Animation")
+
+        AnimAnim.AnimationId = replacementAnimationId
+
+        local Anim = humanoid:LoadAnimation(AnimAnim)
+
+        Anim:Play()
+
+       
+
+        Anim.Stopped:Connect(function()
+
+            isAnimating = false
+
+            if #queue > 0 then
+
+                local nextAnimationId = table.remove(queue, 1)
+
+                playReplacementAnimation(nextAnimationId)
+
+            end
+
+        end)
+
+    else
+
+        isAnimating = false
+
+    end
+
+end
+
+
+local function stopSpecificAnimations()
+
+    for _, track in ipairs(humanoid:GetPlayingAnimationTracks()) do
+
+        local animationId = tonumber(track.Animation.AnimationId:match("%d+"))
+
+        if animationIdsToStop[animationId] then
+
+            track:Stop()
+
+        end
+
+    end
+
+end
+
+
+local function onAnimationPlayed(animationTrack)
+
+    local animationId = tonumber(animationTrack.Animation.AnimationId:match("%d+"))
+
+    if animationIdsToStop[animationId] then
+
+        stopSpecificAnimations()
+
+        animationTrack:Stop()
+
+       
+
+        local replacementAnimationId = replacementAnimations[tostring(animationId)]
+
+        if replacementAnimationId then
+
+            playReplacementAnimation(animationId)
+
+        end
+
+    end
+
+end
+
+
+humanoid.AnimationPlayed:Connect(onAnimationPlayed)
+
+
+local player = game.Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+
+local function onBodyVelocityAdded(bodyVelocity)
+
+    if bodyVelocity:IsA("BodyVelocity") then
+
+        bodyVelocity.Velocity = Vector3.new(bodyVelocity.Velocity.X, 0, bodyVelocity.Velocity.Z)
+
+    end
+
+end
+
+
+character.DescendantAdded:Connect(onBodyVelocityAdded)
+
+
+for _, descendant in pairs(character:GetDescendants()) do
+
+    onBodyVelocityAdded(descendant)
+
+end
+
+
+player.CharacterAdded:Connect(function(newCharacter)
+
+    character = newCharacter
+
+    humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    character.DescendantAdded:Connect(onBodyVelocityAdded)
+
+   
+
+    for _, descendant in pairs(character:GetDescendants()) do
+
+        onBodyVelocityAdded(descendant)
+
+    end
+
+end)
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "20 20 20 dropkick tool",
+	Callback = function()
+      	-- Create the Tool instance
 local tool = Instance.new("Tool")
 
 -- Set the tool's properties
@@ -1497,6 +2423,127 @@ tool.Equipped:Connect(function()
 end)
 
 -- Add the tool to the player's backpack
+tool.Parent = game.Players.LocalPlayer.Backpack	
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "stoic bomb tool",
+	Callback = function()
+      		-- Create the Tool instance
+local tool = Instance.new("Tool")
+
+-- Set the tool's properties
+tool.Name = "Stoic Bomb"
+tool.RequiresHandle = false  -- Set to true if you have a handle part
+tool.CanBeDropped = true     -- Change as needed
+
+-- Add a description or other properties
+tool.ToolTip = "henzen bakadom"
+
+-- Function to make stuff happen when activated
+local function activateTool()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local Sound = Instance.new("Sound")
+Sound.Parent = game:GetService("Players").LocalPlayer.Character.Torso
+Sound.SoundId = getcustomasset('Stoic.MP3')
+Sound.Looped = false
+Sound.Volume = 5
+Sound:Play()
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17141153099"
+
+local playAnim = humanoid:LoadAnimation(anim)
+anim.AnimationId = "rbxassetid://0"
+playAnim:Play()
+playAnim:AdjustSpeed(0.3)
+wait(0.3)
+playAnim:AdjustSpeed(1)
+local launch1 = game.ReplicatedStorage.Resources.KJEffects["launchup"].launchything:Clone()
+launch1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(launch1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(3) -- Emit 20 particles
+        end
+    end
+wait(0.1)
+local light1 = game.ReplicatedStorage.Resources.StoicBomb["stoicbombspeedlines"].POINTOLIGHTO:Clone()
+light1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(light1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+wait(1.4)
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["stoic bomb boom entrance"].Attachment:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(3) -- Emit 20 particles
+        end
+    end
+wait(1.6)
+local stoic1 = game.ReplicatedStorage.Resources.StoicBomb["pre"].Part.Attachment:Clone()
+stoic1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(stoic1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+        end
+wait(0.1)
+local stoic2 = game.ReplicatedStorage.Resources.StoicBomb["Main"].Part.Attachment:Clone()
+stoic2.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(stoic2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+        end
+wait(0.1)
+light1:Destroy()
+stoic1:Destroy()
+stoic2:Destroy()
+local boom2 = game.ReplicatedStorage.Resources.KJEffects["stoic bomb boom entrance"].THEACTUALBOOM:Clone()
+boom2.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+local boom3 = game.ReplicatedStorage.Resources.KJEffects["stoic bomb boom entrance"].smok:Clone()
+boom3.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom3:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+local boom4 = game.ReplicatedStorage.Resources.KJEffects["stoicbombspeedlines"].Attachment:Clone()
+boom4.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom4:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end
+-- Add functionality to the tool when activated
+tool.Equipped:Connect(function()
+    activateTool()
+end)
+
+-- Add the tool to the player's backpack
 tool.Parent = game.Players.LocalPlayer.Backpack
   	end    
 })
@@ -1506,46 +2553,601 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Speed of light",
+	Callback = function()
+      		local Players = game:GetService("Players")
+local player = Players.LocalPlayer
 
-local gui = Instance.new("ScreenGui")
-gui.Name = "Gui toggle (for perfection)"
-gui.Parent = game.CoreGui
-
---screengui = gui
-
-
-
-	local TextButton = Instance.new("TextButton")
--- Text
-TextButton.Text = "Battlegrounds toggle"
-TextButton.TextSize = 40
--- Color
-TextButton.TextColor3 = Color3.new(1, 2, 4)
-TextButton.BackgroundColor3 = Color3.new(0, 1, 1)
-TextButton.BorderColor3 = Color3.new(1, 1, 1)
--- thickness
-TextButton.BorderSizePixel = 8
--- Text Code
-TextButton.Font = Enum.Font.Code
--- Size
-TextButton.Size = UDim2.new(0.2, 0, 0.1, 0)
--- Posisition
-TextButton.Position = UDim2.new(0, 0, 0.4, 0)
--- Function
-TextButton.MouseButton1Click:Connect (function()
-Library:ToggleUI()
-end)
-TextButton.Parent = gui
-TextButton.Draggable = true
-
-	local cornerUI = Instance.new("UICorner")
-cornerUI.CornerRadius = UDim.new(0, 5)
-cornerUI.Parent = TextButton
-
-	local uiStroke = Instance.new("UIStroke")
-    uiStroke.Color = Color3.new(0, 0, 0)
-    uiStroke.Thickness = 4
-    uiStroke.Parent = TextButton
+if player and player:FindFirstChild("Backpack") then
+    local backpack = player.Backpack
     
+    for _, item in ipairs(backpack:GetChildren()) do
+        if item:IsA("Tool") then
+            item:Destroy()
+        end
+    end
+end
 
- 
+-- Create the Tool instance
+local tool = Instance.new("Tool")
+tool.Name = "Energized Punches"
+tool.RequiresHandle = false
+tool.CanBeDropped = true
+tool.ToolTip = "*furiously barrages*"
+
+-- Animation IDs
+local mainAnimationId = "rbxassetid://10466974800"
+local pushBackAnimationId = "rbxassetid://10471478869"
+
+-- Damage parameters
+local minDamage = 5
+local maxDamage = 10
+local pushBackDistance = 15
+
+-- Function to play an animation
+local function playAnimation(animationId, humanoid)
+    local animation = Instance.new("Animation")
+    animation.AnimationId = animationId
+    local animationTrack = humanoid:LoadAnimation(animation)
+    animationTrack:Play()
+    animationTrack:AdjustSpeed(5)
+    return animationTrack
+end
+
+-- Function to play the push-back animation
+local function playPushBackAnimation(humanoid)
+    local pushBackAnimation = Instance.new("Animation")
+    pushBackAnimation.AnimationId = pushBackAnimationId
+    local pushBackAnimationTrack = humanoid:LoadAnimation(pushBackAnimation)
+    pushBackAnimationTrack:Play()
+end
+
+-- Connect tool activation event
+    tool.Equipped:Connect(function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoid = character:WaitForChild("Humanoid")
+    
+    -- Check if there is a player in front
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+    local lookDirection = humanoidRootPart.CFrame.LookVector
+    local raycastParams = RaycastParams.new()
+    raycastParams.FilterDescendantsInstances = {character}
+    raycastParams.FilterType = Enum.RaycastFilterType.Blacklist
+    local raycastResult = workspace:Raycast(humanoidRootPart.Position, lookDirection * 20, raycastParams)
+    
+    if raycastResult and raycastResult.Instance and raycastResult.Instance.Parent:FindFirstChild("Humanoid") then
+        -- There is a player in front, play secondary animation after 0.7 seconds
+        local hitCharacter = raycastResult.Instance.Parent
+        local hitHumanoidRootPart = hitCharacter:FindFirstChild("HumanoidRootPart")
+        local hitHumanoid = hitCharacter:FindFirstChild("Humanoid")
+        
+        if hitHumanoidRootPart and hitHumanoid then
+            -- Play the main animation immediately
+            local mainAnimationTrack = playAnimation(mainAnimationId, humanoid)
+            
+            -- Apply damage and push back after the delay
+            local damage = math.random(minDamage, maxDamage)
+            hitHumanoid:TakeDamage(damage)
+            local pushBackDirection = (hitHumanoidRootPart.Position - humanoidRootPart.Position).unit
+            local pushBackForce = pushBackDirection * pushBackDistance
+            hitHumanoidRootPart.Velocity = pushBackForce
+            playPushBackAnimation(hitHumanoid)  -- Play push-back animation
+            print("Dealt " .. damage .. " damage, pushed back player, and played push-back animation on player: " .. hitCharacter.Name)
+        end
+        local soundeffect = Instance.new("Sound")
+    soundeffect.SoundId = "rbxassetid://17799049330"
+    soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+    soundeffect:Play()
+    soundeffect.Volume = 1
+    wait(0.3)
+    soundeffect:Stop()
+    else
+        -- No player found in front, just play main animation
+        print("No player found in front.")
+        playAnimation(mainAnimationId, humanoid)
+    end
+end)
+
+-- Add the tool to the player's backpack
+tool.Parent = game.Players.LocalPlayer.Backpack
+
+
+-- Create the Tool instance
+local tool = Instance.new("Tool")
+tool.Name = "Shooter"
+tool.RequiresHandle = false
+tool.CanBeDropped = true
+tool.ToolTip = "*pulls out your arm*"
+
+-- Animation IDs
+local mainAnimationId = "rbxassetid://13073745835"
+local pushBackAnimationId = "rbxassetid://10471478869"
+
+-- Damage parameters
+local minDamage = 15
+local maxDamage = 20
+local pushBackDistance = 20
+
+-- Function to play an animation
+local function playAnimation(animationId, humanoid)
+    local animation = Instance.new("Animation")
+    animation.AnimationId = animationId
+    local animationTrack = humanoid:LoadAnimation(animation)
+    animationTrack:Play()
+    animationTrack:AdjustSpeed(5)
+    wait(0.1)
+    animationTrack:AdjustSpeed(1)
+    wait(0.4)
+    local hit1 = game.ReplicatedStorage.Resources.KJEffects["HitParticles"].Hit:Clone()
+    hit1.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(50) -- Emit 20 particles
+        end
+    end
+    return animationTrack
+end
+
+-- Function to play the push-back animation
+local function playPushBackAnimation(humanoid)
+    local pushBackAnimation = Instance.new("Animation")
+    pushBackAnimation.AnimationId = pushBackAnimationId
+    local pushBackAnimationTrack = humanoid:LoadAnimation(pushBackAnimation)
+    pushBackAnimationTrack:Play()
+end
+
+-- Connect tool activation event
+tool.Equipped:Connect(function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoid = character:WaitForChild("Humanoid")
+    
+    -- Check if there is a player in front
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+    local lookDirection = humanoidRootPart.CFrame.LookVector
+    local raycastParams = RaycastParams.new()
+    raycastParams.FilterDescendantsInstances = {character}
+    raycastParams.FilterType = Enum.RaycastFilterType.Blacklist
+    local raycastResult = workspace:Raycast(humanoidRootPart.Position, lookDirection * 20, raycastParams)
+    
+    if raycastResult and raycastResult.Instance and raycastResult.Instance.Parent:FindFirstChild("Humanoid") then
+        -- There is a player in front, play secondary animation after 0.7 seconds
+        local hitCharacter = raycastResult.Instance.Parent
+        local hitHumanoidRootPart = hitCharacter:FindFirstChild("HumanoidRootPart")
+        local hitHumanoid = hitCharacter:FindFirstChild("Humanoid")
+        
+        if hitHumanoidRootPart and hitHumanoid then
+            -- Play the main animation immediately
+            local mainAnimationTrack = playAnimation(mainAnimationId, humanoid)
+            
+            -- Apply damage and push back after the delay
+            local damage = math.random(minDamage, maxDamage)
+            hitHumanoid:TakeDamage(damage)
+            local pushBackDirection = (hitHumanoidRootPart.Position - humanoidRootPart.Position).unit
+            local pushBackForce = pushBackDirection * pushBackDistance
+            hitHumanoidRootPart.Velocity = pushBackForce
+            playPushBackAnimation(hitHumanoid)  -- Play push-back animation
+            print("Dealt " .. damage .. " damage, pushed back player, and played push-back animation on player: " .. hitCharacter.Name)
+        end
+        local soundeffect = Instance.new("Sound")
+    soundeffect.SoundId = "rbxassetid://17325540665"
+    soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+    soundeffect:Play()
+    soundeffect.Volume = 1
+    else
+        -- No player found in front, just play main animation
+        print("No player found in front.")
+        playAnimation(mainAnimationId, humanoid)
+        local soundeffect = Instance.new("Sound")
+    soundeffect.SoundId = "rbxassetid://17325540665"
+    soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+    soundeffect:Play()
+    soundeffect.Volume = 1
+    end
+end)
+
+-- Add the tool to the player's backpack
+tool.Parent = game.Players.LocalPlayer.Backpack
+
+
+-- Create the Tool instance
+local tool = Instance.new("Tool")
+tool.Name = "Time Travel Fighting"
+tool.RequiresHandle = false
+tool.CanBeDropped = true
+tool.ToolTip = "weakest dummy fight back"
+
+-- Animation IDs
+local mainAnimationId = "rbxassetid://18440406788"
+local pushBackAnimationId = "rbxassetid://18440398084"
+
+-- Damage parameters
+local minDamage = 20
+local maxDamage = 25
+local pushBackDistance = 30
+
+-- Function to play an animation
+local function playAnimation(animationId, humanoid)
+    local animation = Instance.new("Animation")
+    animation.AnimationId = animationId
+    local animationTrack = humanoid:LoadAnimation(animation)
+    animationTrack:Play()
+    animationTrack:AdjustSpeed(20)
+    wait(0.5)
+    return animationTrack
+end
+
+-- Function to play the push-back animation
+local function playPushBackAnimation(humanoid)
+    local pushBackAnimation = Instance.new("Animation")
+    pushBackAnimation.AnimationId = pushBackAnimationId
+    local pushBackAnimationTrack = humanoid:LoadAnimation(pushBackAnimation)
+    pushBackAnimationTrack:Play()
+    pushBackAnimationTrack:AdjustSpeed(10)
+    wait(0.5)
+    pushBackAnimationTrack:AdjustSpeed(1)
+end
+
+-- Connect tool activation event
+tool.Equipped:Connect(function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoid = character:WaitForChild("Humanoid")
+    
+    -- Check if there is a player in front
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+    local lookDirection = humanoidRootPart.CFrame.LookVector
+    local raycastParams = RaycastParams.new()
+    raycastParams.FilterDescendantsInstances = {character}
+    raycastParams.FilterType = Enum.RaycastFilterType.Blacklist
+    local raycastResult = workspace:Raycast(humanoidRootPart.Position, lookDirection * 20, raycastParams)
+    
+    if raycastResult and raycastResult.Instance and raycastResult.Instance.Parent:FindFirstChild("Humanoid") then
+        -- There is a player in front, play secondary animation after 0.7 seconds
+        local hitCharacter = raycastResult.Instance.Parent
+        local hitHumanoidRootPart = hitCharacter:FindFirstChild("HumanoidRootPart")
+        local hitHumanoid = hitCharacter:FindFirstChild("Humanoid")
+        
+        if hitHumanoidRootPart and hitHumanoid then
+            -- Play the main animation immediately
+            local mainAnimationTrack = playAnimation(mainAnimationId, humanoid)
+            
+            -- Apply damage and push back after the delay
+            local damage = math.random(minDamage, maxDamage)
+            hitHumanoid:TakeDamage(damage)
+            local pushBackDirection = (hitHumanoidRootPart.Position - humanoidRootPart.Position).unit
+            local pushBackForce = pushBackDirection * pushBackDistance
+            hitHumanoidRootPart.Velocity = pushBackForce
+            playPushBackAnimation(hitHumanoid)  -- Play push-back animation
+            print("Dealt " .. damage .. " damage, pushed back player, and played push-back animation on player: " .. hitCharacter.Name)
+        end
+    else
+        -- No player found in front, just play main animation
+        print("No player found in front.")
+        playAnimation(mainAnimationId, humanoid)
+    end
+end)
+
+-- Add the tool to the player's backpack
+tool.Parent = game.Players.LocalPlayer.Backpack
+
+-- Create the Tool instance
+local tool = Instance.new("Tool")
+tool.Name = "Running Fists"
+tool.RequiresHandle = false
+tool.CanBeDropped = true
+tool.ToolTip = "take this you little wimp"
+
+-- Animation IDs
+local mainAnimationId = "rbxassetid://13560306510"
+local pushBackAnimationId = "rbxassetid://10471478869"
+
+-- Damage parameters
+local minDamage = 10
+local maxDamage = 15
+local pushBackDistance = 15
+
+-- Function to play an animation
+local function playAnimation(animationId, humanoid)
+    local animation = Instance.new("Animation")
+    animation.AnimationId = animationId
+    local animationTrack = humanoid:LoadAnimation(animation)
+    animationTrack:Play()
+    animationTrack:AdjustSpeed(10)
+    wait(0.35)
+    return animationTrack
+end
+
+-- Function to play the push-back animation
+local function playPushBackAnimation(humanoid)
+    local pushBackAnimation = Instance.new("Animation")
+    pushBackAnimation.AnimationId = pushBackAnimationId
+    local pushBackAnimationTrack = humanoid:LoadAnimation(pushBackAnimation)
+    pushBackAnimationTrack:Play()
+end
+
+-- Connect tool activation event
+tool.Equipped:Connect(function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoid = character:WaitForChild("Humanoid")
+    
+    -- Check if there is a player in front
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+    local lookDirection = humanoidRootPart.CFrame.LookVector
+    local raycastParams = RaycastParams.new()
+    raycastParams.FilterDescendantsInstances = {character}
+    raycastParams.FilterType = Enum.RaycastFilterType.Blacklist
+    local raycastResult = workspace:Raycast(humanoidRootPart.Position, lookDirection * 20, raycastParams)
+    
+    if raycastResult and raycastResult.Instance and raycastResult.Instance.Parent:FindFirstChild("Humanoid") then
+        -- There is a player in front, play secondary animation after 0.7 seconds
+        local hitCharacter = raycastResult.Instance.Parent
+        local hitHumanoidRootPart = hitCharacter:FindFirstChild("HumanoidRootPart")
+        local hitHumanoid = hitCharacter:FindFirstChild("Humanoid")
+        
+        if hitHumanoidRootPart and hitHumanoid then
+            -- Play the main animation immediately
+            local mainAnimationTrack = playAnimation(mainAnimationId, humanoid)
+            
+            -- Apply damage and push back after the delay
+            local damage = math.random(minDamage, maxDamage)
+            hitHumanoid:TakeDamage(damage)
+            local pushBackDirection = (hitHumanoidRootPart.Position - humanoidRootPart.Position).unit
+            local pushBackForce = pushBackDirection * pushBackDistance
+            hitHumanoidRootPart.Velocity = pushBackForce
+            playPushBackAnimation(hitHumanoid)  -- Play push-back animation
+            print("Dealt " .. damage .. " damage, pushed back player, and played push-back animation on player: " .. hitCharacter.Name)
+        end
+    else
+        -- No player found in front, just play main animation
+        print("No player found in front.")
+        playAnimation(mainAnimationId, humanoid)
+    end
+end)
+
+-- Add the tool to the player's backpack
+tool.Parent = game.Players.LocalPlayer.Backpack
+
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local AnimationId = "rbxassetid://15957361339"
+local SoundId = "rbxassetid://15956555583"
+
+
+local LocalPlayer = Players.LocalPlayer
+local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+local Mouse = LocalPlayer:GetMouse()
+local Humanoid = Character:WaitForChild("Humanoid")
+local Torso = Character:WaitForChild("Torso")
+
+
+local TweenSpeed = 100000
+
+
+local CooldownTime = 0.9
+local LastActivated = 0
+
+
+local animation = Instance.new("Animation")
+animation.AnimationId = AnimationId
+
+
+local animTrack = Humanoid:LoadAnimation(animation)
+
+
+local tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Velocity Manipulate"
+tool.ManualActivationOnly = false
+
+
+local sound = Instance.new("Sound")
+sound.SoundId = SoundId
+sound.Volume = 1
+sound.Parent = Character.HumanoidRootPart
+
+
+function tweenTeleport(to, speed)
+    local rootPart = Character.HumanoidRootPart
+    local distance = (to.Position - rootPart.Position).Magnitude
+    local tweenInfo = TweenInfo.new(distance / speed, Enum.EasingStyle.Linear)
+    
+    local tween = TweenService:Create(rootPart, tweenInfo, {
+        CFrame = to
+    })
+
+
+    tween:Play()
+    tween.Completed:Wait()
+end
+
+
+local function findDescendant(parent, name)
+    local child = parent:FindFirstChild(name)
+    if not child then
+        for _, descendant in ipairs(parent:GetChildren()) do
+            child = findDescendant(descendant, name)
+            if child then
+                break
+            end
+        end
+    end
+    return child
+end
+
+
+local function duplicateEmitter(originalEmitter)
+    local duplicate = originalEmitter:Clone()
+    duplicate.Parent = originalEmitter.Parent
+    duplicate.Rate = 100
+    return duplicate
+end
+
+
+tool.Equipped:Connect(function()
+    local currentTime = tick()
+
+
+    if currentTime - LastActivated >= CooldownTime then
+        LastActivated = currentTime
+
+
+        local position = Mouse.Hit + Vector3.new(0, 2.5, 0)
+        tweenTeleport(CFrame.new(position.X, position.Y, position.Z), TweenSpeed)
+        
+        animTrack:Play()
+        
+        sound:Play()
+        
+        local replicatedStorage = game:GetService("ReplicatedStorage")
+        local resourcesFolder = replicatedStorage:WaitForChild("Resources", 2)
+        if resourcesFolder then
+            local kjEffectsFolder = resourcesFolder:FindFirstChild("KJEffects")
+            if kjEffectsFolder then
+                local tpThingEmitter = findDescendant(kjEffectsFolder, "tpthing")
+                if tpThingEmitter and tpThingEmitter:IsA("ParticleEmitter") then
+                    local duplicatedEmitter = duplicateEmitter(tpThingEmitter)
+                    
+                    duplicatedEmitter.Parent = Torso
+                    print("Successfully parented duplicated tpthing ParticleEmitter to Torso and set Rate to 100.")
+                    
+                    wait(0.2)
+                    
+                    duplicatedEmitter.Rate = 0
+                    print("Successfully set Rate of duplicated emitter to 0 after 0.2 seconds.")
+                else
+                    warn("Could not find tpthing ParticleEmitter or it is not a ParticleEmitter.")
+                end
+            else
+                warn("Could not find KJEffects folder inside Resources.")
+            end
+        else
+            warn("Could not find Resources folder inside ReplicatedStorage.")
+        end
+    end
+end)
+
+
+tool.Parent = LocalPlayer.Backpack
+
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+local function findGuiAndSetText()
+    local screenGui = playerGui:FindFirstChild("ScreenGui")
+    if screenGui then
+        local magicHealthFrame = screenGui:FindFirstChild("MagicHealth")
+        if magicHealthFrame then
+            local textLabel = magicHealthFrame:FindFirstChild("TextLabel")
+            if textLabel then
+                textLabel.Text = "SPEED OF LIGHT"
+            end
+        end
+    end
+end
+
+
+playerGui.DescendantAdded:Connect(findGuiAndSetText)
+findGuiAndSetText()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]    
+
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "Respected people"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "owner - Bonbon",
+	Callback = function()
+      		print("theonethathasnoenemies")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Dragon - Helper - bonbon's boner",
+	Callback = function()
+      		print("dragonfly50101")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Ccure - Helper - Script adder",
+	Callback = function()
+      		print("kaguyafan3")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Korosanii - Early access gui tester",
+	Callback = function()
+      		print("korosanii")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "sdak/Ya - Whitelisted ppl",
+	Callback = function()
+      		print("sdak47")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Joshuaa - #2 whitelisted person",
+	Callback = function()
+      		print("Joshuaaa")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
