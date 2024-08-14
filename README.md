@@ -1,3 +1,5 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("MAMUSHI OREWA AW", "DarkTheme")
 task.spawn(function()
     local lp = game.Players.LocalPlayer
     local userName, displayName = lp.Name, lp.DisplayName
@@ -1487,3 +1489,47 @@ tool.Parent = game.Players.LocalPlayer.Backpack
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "Gui toggle (for perfection)"
+gui.Parent = game.CoreGui
+
+--screengui = gui
+
+
+
+	local TextButton = Instance.new("TextButton")
+-- Text
+TextButton.Text = "Battlegrounds toggle"
+TextButton.TextSize = 40
+-- Color
+TextButton.TextColor3 = Color3.new(1, 2, 4)
+TextButton.BackgroundColor3 = Color3.new(0, 1, 1)
+TextButton.BorderColor3 = Color3.new(1, 1, 1)
+-- thickness
+TextButton.BorderSizePixel = 8
+-- Text Code
+TextButton.Font = Enum.Font.Code
+-- Size
+TextButton.Size = UDim2.new(0.2, 0, 0.1, 0)
+-- Posisition
+TextButton.Position = UDim2.new(0, 0, 0.4, 0)
+-- Function
+TextButton.MouseButton1Click:Connect (function()
+Library:ToggleUI()
+end)
+TextButton.Parent = gui
+TextButton.Draggable = true
+
+	local cornerUI = Instance.new("UICorner")
+cornerUI.CornerRadius = UDim.new(0, 5)
+cornerUI.Parent = TextButton
+
+	local uiStroke = Instance.new("UIStroke")
+    uiStroke.Color = Color3.new(0, 0, 0)
+    uiStroke.Thickness = 4
+    uiStroke.Parent = TextButton
+    
+
+ 
